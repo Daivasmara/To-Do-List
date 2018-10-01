@@ -41,6 +41,19 @@ export default {
       newTodo: ''
     }
   },
+  watch: {
+    todos: {
+      handler() {
+        return localStorage.todos = JSON.stringify(this.todos)
+      },
+      deep: true
+    }
+  },
+  mounted() {
+    if(localStorage.todos){
+      this.todos = JSON.parse(localStorage.todos)
+    }
+  },
   methods: {
     submitTodo() {
       this.todos.push({
