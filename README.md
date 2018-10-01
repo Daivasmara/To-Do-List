@@ -8,12 +8,12 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Compiles and Minifies for Production
 ```
 npm run build
 ```
 
-### Lints and fixes files
+### Lints and Fixes Files
 ```
 npm run lint
 ```
@@ -22,11 +22,11 @@ npm run lint
 ![GIF](screenshoots/ss.gif)
 
 
-## Built With
+## Built with
 
 * [Vue.js](https://vuejs.org/) - JavaScript Framework
 * [Materialize CSS](https://materializecss.com/) - CSS Framework
 
-## Authors
+## Author
 
 * **Muhammad Daivasmara Denaw** - [Daivasmara](https://github.com/Daivasmara)
