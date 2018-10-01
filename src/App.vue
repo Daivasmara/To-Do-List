@@ -44,7 +44,7 @@ export default {
   watch: {
     todos: {
       handler() {
-        return localStorage.todos = JSON.stringify(this.todos)
+        localStorage.todos = JSON.stringify(this.todos)
       },
       deep: true
     }
