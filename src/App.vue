@@ -59,7 +59,7 @@ export default {
 </script>
 
 <style lang="scss">
-  .header {
-    margin-top: 100px;
-  }
+.header{
+  margin-top: 100px;
+}
 </style>
