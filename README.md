@@ -2,13 +2,9 @@
 
 A simple to-do list app created with only Vue.js!
 
-## Project setup
+## How to Run this App
 ```
 npm install
-```
-
-### Compiles and hot-reloads for development
-```
 npm run serve
 ```
 
@@ -21,6 +17,7 @@ npm run build
 ```
 npm run lint
 ```
+
 ## GIF :
 ![GIF](screenshoots/ss.gif)
 
