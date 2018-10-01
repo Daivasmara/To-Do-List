@@ -2,6 +2,7 @@
 
 A simple to-do list app created with only Vue.js!
 
+
 ### How to Run this App
 ```
 npm install
