@@ -1,7 +1,7 @@
 <template>
   <div class="app">
     <div class="container">
-      <div class="row">
+      <div class="row header">
         <h1 class="col s6 offset-s3 center-align teal-text">To-Do List!</h1>
       </div>
       <div class="row">
@@ -59,5 +59,7 @@ export default {
 </script>
 
 <style lang="scss">
-
+  .header {
+    margin-top: 100px;
+  }
 </style>

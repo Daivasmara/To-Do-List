@@ -21,6 +21,9 @@ npm run build
 ```
 npm run lint
 ```
+## Screenshoot :
+![Screenshoot](screenshoots/ss.gif)
+
 
 ## Built With
 
