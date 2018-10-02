@@ -1,6 +1,8 @@
 # Vue.js To-Do List Application!
+### 1 Day 1 App => Day 1
 
 A simple to-do list app created with only Vue.js! The todos added in this app is stored in localStorage, so it doesnt matter whether if the webpage is refreshed or even closed, the data will still gonna be there.
+
 
 
 ### How to Run this App 
