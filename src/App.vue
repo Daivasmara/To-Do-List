@@ -16,12 +16,16 @@
       </div>
       <div class="row">
         <ul class="collection col s6 offset-s3">
-          <li class="collection-item" v-for="todo in todos">
+          <li class="collection-item" v-for="todo in todos" :key="todo.id">
             <p>
               <label>
                 <input type="checkbox" :checked=todo.done @change="todo.done = !todo.done" />
                 <span>{{todo.title}}</span>
-                <span><a @click.prevent="deleteTodo(todo)"><i class="material-icons right teal-text">delete</i></a></span>
+                <span>
+                  <a @click.prevent="deleteTodo(todo)">
+                    <i class="material-icons right teal-text">delete</i>
+                  </a>
+                </span>
               </label>
             </p>
           </li>
@@ -38,35 +42,35 @@ export default {
   data() {
     return {
       todos: [],
-      newTodo: ''
-    }
+      newTodo: '',
+    };
   },
   watch: {
     todos: {
       handler() {
-        localStorage.todos = JSON.stringify(this.todos)
+        localStorage.todos = JSON.stringify(this.todos);
       },
-      deep: true
-    }
+      deep: true,
+    },
   },
   mounted() {
-    if(localStorage.todos){
-      this.todos = JSON.parse(localStorage.todos)
+    if (localStorage.todos) {
+      this.todos = JSON.parse(localStorage.todos);
     }
   },
   methods: {
     submitTodo() {
       this.todos.push({
         title: this.newTodo,
-        done: false
-      })
-      this.newTodo = ''
+        done: false,
+      });
+      this.newTodo = '';
     },
     deleteTodo(todo) {
-      const todoIndex = this.todos.indexOf(todo)
+      const todoIndex = this.todos.indexOf(todo);
       this.todos.splice(todoIndex, 1);
-    }
-  }
+    },
+  },
 
 };
 </script>
