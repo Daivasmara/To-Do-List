@@ -2,7 +2,8 @@
 
 A simple to-do list app created with only Vue.js! The todos added in this app is stored in localStorage, so it doesnt matter whether if the webpage is refreshed or even closed, the data will still gonna be there. Try it live on https://dist-qybefekkix.now.sh
 
-
+## Pretty Cool FYI
+This repo is being featured on [vuejsexamples.com](https://vuejsexamples.com/to-do-list-application-created-with-only-vue-js/)!!
 
 ### How to Run this App
 ```
